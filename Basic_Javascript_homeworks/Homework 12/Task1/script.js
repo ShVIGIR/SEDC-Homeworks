@@ -19,3 +19,16 @@ console.log(typeof (result4));
 console.log(typeof (result5));
 // console.log(typeof (result6));
 // console.log(typeof (result7));
+
+console.log("Task 1 - data types (corrected)");
+
+function funkcija1 (vnes1){
+    return typeof vnes1;
+}
+console.log(funkcija1(null));
+console.log(funkcija1(true));
+console.log(funkcija1(23));
+console.log(funkcija1("23"));
+console.log(funkcija1());
+// console.log(funkcija1(1n));
+// console.log(funkcija1(Symbol("lala")));

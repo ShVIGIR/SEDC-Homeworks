@@ -10,13 +10,16 @@ function dogCalculator() {
         return dogAge + " dog";
     }
 
-    if (direction == `2`) {
+    else if (direction == `2`) {
         let years = Number(prompt("Type number of years"));
         let humanYears = years / 7;
         return humanYears + " human";
     }
+    else{
+        alert (`Error`);
+    }
 }
 let dog = dogCalculator();
-console.log(`Dog have ${dog} years.`);
+alert(`Dog have ${dog} years.`);
 
 
